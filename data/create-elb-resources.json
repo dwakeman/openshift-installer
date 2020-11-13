@@ -1,0 +1,173 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "elasticLoadbalancing:AddTags"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:ApplySecurityGroupsToLoadBalancer"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:AttachLoadBalancerToSubnets"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:ConfigureHealthCheck"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:CreateListener"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:CreateLoadBalancer"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:CreateLoadBalancerListeners"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:CreateTargetGroup"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DeleteLoadBalancer"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DeregisterInstancesFromLoadBalancer"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DeregisterTargets"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeInstanceHealth"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeListeners"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeLoadBalancerAttributes"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeLoadBalancers"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeTags"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeTargetGroupAttributes"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:DescribeTargetHealth"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:ModifyLoadBalancerAttributes"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:ModifyTargetGroup"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:ModifyTargetGroupAttributes"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:RegisterInstancesWithLoadBalancer"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:RegisterTargets"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "elasticLoadbalancing:SetLoadBalancerPoliciesOfListener"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }
